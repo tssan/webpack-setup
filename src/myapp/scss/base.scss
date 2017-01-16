@@ -5,3 +5,17 @@ body {
     color: $black;
     font-size: 12px;
 }
+
+.flex-grid {
+    display: flex;
+}
+
+.col {
+    flex: 1;
+}
+
+@media (max-width: 400px) {
+    .flex-grid {
+        display: block;
+    }
+}
